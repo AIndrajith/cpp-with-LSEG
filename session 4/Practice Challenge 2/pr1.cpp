@@ -11,4 +11,5 @@ int main(){
     else{
         cout<< "Student should sit the Hall 002";
     }
+    return 0;
 }

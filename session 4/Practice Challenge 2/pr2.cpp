@@ -12,5 +12,5 @@ int main(){
     else{
         cout<<"Invalid password! Please enter the correct password!";
     }
-
+    return 0;
 }
