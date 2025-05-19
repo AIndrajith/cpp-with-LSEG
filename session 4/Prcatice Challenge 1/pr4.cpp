@@ -2,12 +2,15 @@
 using namespace std;
 
 int main(){
-    int marks1, marks2;
-    cout<<"Enter part 1 marks: "<< endl;
-    cin>> marks1;
-    cout<<"Enter part 2 marks: "<<endl;
-    cin>>marks2;
-    if(marks1>15 && marks2>40){
-        cout<<"Student pass the exam"<< endl;
+    char character;
+    cout<< "Enter user input: ";
+    cin>>character;
+
+    if((character >= 65) && (character <= 122)){
+        cout<<"You entered a character."<< endl;;
     }
+    else{
+        cout<<"This is not a character."<<endl;
+    }
+    return 0;
 }
