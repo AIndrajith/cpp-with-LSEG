@@ -4,7 +4,18 @@
 using namespace std;
 
 int main(){
-    for(int i = 1; i <= 50; i++){
-        cout<< i << endl;
+    int i, j;
+    bool isPrime;
+
+    for(i = 2; i <= 50; i++){
+        isPrime = true;
+        for(j=2; j<=i/2; j++ ){
+            if(i % j == 0){
+                isPrime = false;
+                break;
+            }
+        }
+        if(isPrime)
+            cout<< i << " ";
     }
 }

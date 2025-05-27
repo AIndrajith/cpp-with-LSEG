@@ -11,4 +11,9 @@ int main(){
         squar_num = i*i;
         i++;
     }
+    // int num, sum= 0;
+    // for(num =1; num<=30: num++{
+    //     cout<< sum << " ";
+    //     sum += num;
+    // })
 }
