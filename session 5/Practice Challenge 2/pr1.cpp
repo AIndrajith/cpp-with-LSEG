@@ -15,4 +15,11 @@ int main(){
     }
         
     return 0;
+    // cout<< " Fahrenheit \t Celsisus: "<< endl;
+
+    // for(int Fahrenheit = -20; Fahrenheit <= 100; Fahrenheit += 10){
+    //     double Celsius = (Fahrenheit -32) * 5.0 / 9;
+    //     cout<< "\t"<< Fahrenheit << " \t"<< Celsius << endl;
+    // }
+    // return 0;
 }
